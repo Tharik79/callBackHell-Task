@@ -1,0 +1,31 @@
+div .greeting{
+    background-image:#95F7B1;
+    color:#9F3A60;
+    font-size: 80px; 
+    font-family: 'Caveat', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sacramento', cursive;
+animation: animate 1.5s linear infinite;
+
+position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+     
+    
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+      }
+    
+    100%{
+      opacity: 0;
+    }
+  }
